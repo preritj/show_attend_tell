@@ -2,7 +2,7 @@
 
 **Credits** :
 
-* This repo uses Tensorflow implementation of show found at [tensorflow/models](https://github.com/tensorflow/models/) of the image-to-text paper described below : 
+* This repo uses Tensorflow implementation of show found at [tensorflow/models](https://github.com/tensorflow/models/tree/master/research/im2txt) of the image-to-text paper described below : 
 
 * "Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge."
 Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.
@@ -15,9 +15,10 @@ Be sure to credit the original author if you use the checkpoint file.
 ## Setup instructions
 
 * Clone the repository.
-* Install Python 3.5+, Numpy 1.2+, Tensorflow 1.2+ . You may need to install python packages if they are missing. 
+* Install Python 3.5+, Tensorflow 1.0+ . You may need to install certain python packages if they are missing. 
+* Install [NLTK](http://www.nltk.org/install.html) and [NLTK data](http://www.nltk.org/data.html) : 
 * Download the pretrained checkpoint file from the link specified above and place the checkpoint file, along with the corresponding index file, in `models` directory. 
-* The live camera feed url as well as other camera parameters should be specified in `stream_utils/config.ini`. 
+* The live camera feed url as well as other camera parameters should be specified in `stream_utils/config.ini`.  Currently, the supported formats are JPEG and MJPEG.
 * Finally, edit and run the script `run.sh`.  
 
 
