@@ -11,10 +11,6 @@ Full text available at: http://arxiv.org/abs/1609.06647
 * Pretrained model was borrowed from [github page of KranthiGV](https://github.com/KranthiGV/Pretrained-Show-and-Tell-model). For convenience, here is the checkpoint file : https://drive.google.com/file/d/0B3laN3vvvSD2T1RPeDA5djJ6bFE/view?usp=sharing) | [Released under MIT License](https://github.com/KranthiGV/Pretrained-Show-and-Tell-model/blob/master/LICENSE). 
 Be sure to credit the original author if you use the checkpoint file.
 
-Here is a sample on a live camera feed without any fine-tuning: 
-
-[![captions](http://img.youtube.com/vi/_LEVX2OyycE/0.jpg)](http://www.youtube.com/watch?v=_LEVX2OyycE "captions")
-
 
 ## Setup instructions
 
@@ -23,3 +19,10 @@ Here is a sample on a live camera feed without any fine-tuning:
 * Download the pretrained checkpoint file from the link specified above and place the checkpoint file, along with the corresponding index file, in `models` directory. 
 * The live camera feed url as well as other camera parameters should be specified in `stream_utils/config.ini`. 
 * Finally, edit and run the script `run.sh`.  
+
+
+## Results 
+
+Here is resulting captions on a random live camera feed without any fine-tuning: 
+
+[![captions](http://img.youtube.com/vi/_LEVX2OyycE/0.jpg)](http://www.youtube.com/watch?v=_LEVX2OyycE "captions")
