@@ -2,7 +2,7 @@
 
 **Credits** :
 
-* This repo uses Tensorflow implementation of show found at [tensorflow/models](https://github.com/tensorflow/models/tree/master/research/im2txt) of the image-to-text paper described below : 
+* This repo uses Tensorflow implementation of image-to-text found at [tensorflow/models](https://github.com/tensorflow/models/tree/master/research/im2txt) of the image-to-text paper described below : 
 
 * "Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge."
 Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan.
